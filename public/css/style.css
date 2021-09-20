@@ -33,9 +33,13 @@ header {
   font-size: 16px;
   margin-top: 7px;
   justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
  }
+.contenedor-titulo{
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  justify-content: center;
+}
 .buscador .placeholder {
   text-align: center;
 }
@@ -174,11 +178,6 @@ header nav {
 }
 .header-nav {
   display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: space-around;
-  font-size: 12px;
-  margin-top: 30px;
 }
 #ul1 {
   display: flex;
@@ -407,10 +406,8 @@ footer h4 {
     display: flex;
     flex-wrap: nowrap;
   }
-  .titulo {
+  .contenedor-titulo{
     display: flex;
-    flex-wrap: nowrap;
-    align-self: flex-start;
   }
 }
 
